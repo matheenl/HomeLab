@@ -1,0 +1,3 @@
+VMName,VMPath,DiskType,DiffParent,DiskSize,ProcessorCount,StartupRAM,DynamicMemory,MinRam,MaxRAM,MemPriority,MemBuffer,IPAddress,Mask,Gateway,ServerName,DNS,Switch,Adapter,version,Description
+AD01,F:\HomeLabVMs,Differencing,F:\GoldImages\Server2016-Sysprep-1705.vhdx,,1,1024,Yes,1024,2048,50,20,192.168.125.211,24,192.168.125.1,Clus02,192.168.125.10,Internal,LAB,2,Domain Controller
+FS01,F:\HomeLabVMs,Differencing,F:\GoldImages\Server2016-Sysprep-1705.vhdx,,1,1024,Yes,1024,2048,50,20,192.168.125.212,24,192.168.125.1,Clus03,192.168.125.10,Internal,LAB,2,File Server
